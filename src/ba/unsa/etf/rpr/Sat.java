@@ -8,7 +8,7 @@ public class Sat {
 	        postavi(sati,minute,sekunde);
         }
 
-        public void postavi(int sati, int minute, int sekunde) {
+         public void postavi(int sati, int minute, int sekunde) {
             this.sati = sati;
             this.minute = minute;
             this.sekunde = sekunde;
@@ -54,13 +54,13 @@ public class Sat {
             }
     }
 
-    public int dajSate() {
+    public int getSati() {
 	        return sati;
     }
-    public int dajMinute() {
+    public int getMinute() {
 	        return minute;
     }
-    public  int dajSekunde() {
+    public  int getSekunde() {
 	        return sekunde;
     }
     public void ispisi() {
